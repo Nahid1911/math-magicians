@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 <div align="center">
 
-  <h3><b>My Portfolio README guide</b></h3>
+  <h3><b>Math Magicians README guide</b></h3>
 
 </div>
 
@@ -31,7 +31,7 @@
 
 # 📖 Nahid-s_Portfolio <a name="about-project"></a>
 
-Nahid-s_Portfolio is a HTML and CSS porject to develop personal portfolio wiith some mandatory features.
+This project is developed using React which is a functional calculator as per the requirements of Microverse curriculum.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -40,8 +40,7 @@ Nahid-s_Portfolio is a HTML and CSS porject to develop personal portfolio wiith 
 <details>
   <summary>Software</summary>
   <ul>
-    <li><a href=" ">HTML</a></li>
-    <li><a href=" ">CSS</a></li>
+    <li><a href=" ">React</a></li>
   </ul>
 </details>
 
@@ -49,9 +48,8 @@ Nahid-s_Portfolio is a HTML and CSS porject to develop personal portfolio wiith 
 
 ### Key Features <a name="key-features"></a>
 
-- Work Showcase
-- Personal Information
-- Contact information
+- a fully functional calculator
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -59,10 +57,7 @@ Nahid-s_Portfolio is a HTML and CSS porject to develop personal portfolio wiith 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-To see the live demo of the page please click <a href="https://nahid1911.github.io/Nahid-s_Portfolio/">here</a>:
-
-
-Have a knowledge about the project please see the <a href="https://www.loom.com/share/cad0b76c62684be99ed5ad72c25bd3be">project walkthrough</a>
+not available right now
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,7 +79,7 @@ Clone this repository to your desired folder using the command:
 
 ```sh
   cd folder_name
-  git clone git@github.com:Nahid1911/Nahid-s_Portfolio.git
+  git clone https://github.com/Nahid1911/math-magicians.git
 ```
 ### Usage
 
@@ -96,6 +91,7 @@ To run tests, run the following command:
 
 ```sh
   npx stylelint "**/*.{css,scss}"
+  npx eslint .
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,7 +113,7 @@ Collaborators of this project is:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] JavaScript
+- [ ] Fully functional calculator
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
