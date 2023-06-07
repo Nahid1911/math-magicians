@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  pad: 0;
+  box-sizing: border-box;
   font-family:
     -apple-system,
     BlinkMacSystemFont,
@@ -24,4 +26,27 @@ code {
     Consolas,
     'Courier New',
     monospace;
+}
+
+.mainDiv {
+  background-color: red;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input {
+  width: 100%;
+  height: 60px;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+}
+
+.signDiv {
+display: flex;
+flex-direction: column;
 }
