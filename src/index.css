@@ -1,52 +1,47 @@
-body {
-  margin: 0;
-  pad: 0;
-  box-sizing: border-box;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
-}
-
 .mainDiv {
-  background-color: red;
+  width: 240px;
+  background-color: #fff;
+  border: 2px solid black;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+.textAreaDiv {
+  margin: 0;
+  padding: 0;
+  width: 98.4%;
+  box-sizing: border-box;
+
+}
+
+.buttonDiv {
+  display: flex;
+}
+
 input {
+  margin: 0;
+  padding: 0;
   width: 100%;
   height: 60px;
+  background-color: rgb(199, 192, 192);
+  color: #fff;
 }
 
 button {
   width: 60px;
   height: 60px;
+  background: transparent;
+  /* border-radius: 5px; */
+}
+
+.largeBtn {
+  width: 120px;
 }
 
 .signDiv {
 display: flex;
 flex-direction: column;
+background-color: orange;
 }
