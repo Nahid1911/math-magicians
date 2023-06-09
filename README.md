@@ -1,9 +1,4 @@
 <a name="readme-top"></a>
-<div align="center">
-
-  <h3><b>Math Magicians README guide</b></h3>
-
-</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -11,55 +6,36 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
   - [Setup](#setup)
-  - [Usage](#usage)
+  - [Prerequisites](#prerequisites)
   - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Nahid-s_Portfolio <a name="about-project"></a>
+# 📖 Math Magicians <a name="about-project"></a>
 
-This project is developed using React which is a functional calculator as per the requirements of Microverse curriculum.
+- This a math magicians app built with HTML, CSS, REACT in this app you can make some calculations math like the addition and division..etc, also I used the external API to fetch some quotes for the app using the use effect hook.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
-
-<details>
-  <summary>Software</summary>
-  <ul>
-    <li><a href=" ">React</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-- a fully functional calculator
-
+- HTML
+- CSS
+- React
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+## Key Features
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-not available right now
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- I added the functionality for this app👍.
+- Add quotes for the app using external API💯.
+- I used the basic css style for styling the components.
 
 <!-- GETTING STARTED -->
 
@@ -71,31 +47,67 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-Install text editor like Visual Studio
+Example command:
+
+```sh
+1.use a browser
+2.use cable internet
+```
 
 ### Setup
 
-Clone this repository to your desired folder using the command:
+Clone this repository to your desired folder:
+
+Example commands:
 
 ```sh
-  cd folder_name
-  git clone https://github.com/Nahid1911/math-magicians.git
+
+  git git@github.com:Nahid1911/math-magicians.git
+  cd math-magicians
+
+
 ```
+
+### Install
+
+Install this project with:
+
+Example command:
+
+```sh
+  npm install
+```
+
 ### Usage
 
-After cloning the project you can customize it replacing the personal information with required information:
+To run the project, execute the following command:
+
+Example command:
+
+```sh
+- Write npm start in the terminal and click on enter after that you can see the app in the browser.
+```
 
 ### Run tests
 
-To run tests, run the following command:
+To run tests for the linter, run the following command:
+
+Example command:
 
 ```sh
-  npx stylelint "**/*.{css,scss}"
-  npx eslint .
+npx hint .
+npx eslint .
 ```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+### Deployment
+
+You can deploy this project using:
+
+- Github Pages
+- Render.com
+- Netlify.com
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -106,14 +118,15 @@ Collaborators of this project is:
 - GitHub: [@githubhandle](https://github.com/Nahid1911)
 - Twitter: [@twitterhandle](https://twitter.com/Nahid1911)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/nahidraihan/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Fully functional calculator
+- [ ] Add test using react testing library.
+- [ ] Add more styling💯.
+- [ ] Add contact page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,13 +136,15 @@ Collaborators of this project is:
 
 Contributions, issues, and feature requests are welcome!
 
+Feel free to check the [Isuues Pages](https://github.com/Nahid1911/math-magicians/issues)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please show your support by giving stars.
+If you like this project kindly give it a star⭐️.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,7 +152,7 @@ If you like this project please show your support by giving stars.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for the inspiration to create this portfolio as a part of my learning journey.
+I would like to thank Ekpenisi E Raphael for the immense support.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,6 +160,6 @@ I would like to thank Microverse for the inspiration to create this portfolio as
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](https://github.com/Nahid1911/math-magicians/blob/fetchDataFromAPI/LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
