@@ -19,7 +19,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio <a name="about-project"></a>
+# 📖 Math Magicians <a name="about-project"></a>
 
 - This a math magicians app built with HTML, CSS, REACT in this app you can make some calculations math like the addition and division..etc, also I used the external API to fetch some quotes for the app using the use effect hook.
 
