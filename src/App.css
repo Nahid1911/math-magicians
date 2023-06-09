@@ -4,6 +4,7 @@
   justify-content: space-around;
   align-items: center;
 }
+
 .mainDiv {
   width: 240px;
   background-color: #fff;
@@ -16,10 +17,10 @@
 
 .quoteDiv,
 .calcuDiv {
-display: flex;
-justify-content: center;
-align-items: center;
-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 }
 
 .quoteDiv {
