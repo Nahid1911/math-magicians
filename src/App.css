@@ -14,4 +14,10 @@
   border-radius: 15px;
 }
 
-
+.quoteDiv,
+.calcuDiv {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 50%;
+}
