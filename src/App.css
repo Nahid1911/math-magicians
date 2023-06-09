@@ -21,3 +21,11 @@ justify-content: center;
 align-items: center;
 width: 50%;
 }
+
+.quoteDiv {
+  padding: 20px;
+  background-color: rgba(9, 181, 41, 0.212);
+  box-shadow: 10px 10px 90px rgba(9, 181, 41, 0.5);
+  border-radius: 30px;
+  color: green;
+}
