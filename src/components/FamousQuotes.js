@@ -41,8 +41,10 @@ const FamousQuotes = () => {
 
   if (data) {
     return (
-      <div>
-        <div>{`"${data.quote}" -- ${data.author}`}</div>
+      <div className="quotePageDiv">
+        <div className="quoteDiv">
+          <div>{`"${data.quote}" -- ${data.author}`}</div>
+        </div>
       </div>
     );
   }

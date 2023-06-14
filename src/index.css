@@ -1,7 +1,41 @@
-.mainDiv {
-  box-shadow: 10px 10px 90px rgba(9, 181, 41, 0.5);
-  border-radius: 8px;
-  border: 10px solid green;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: green;
+  color: #fff;
+  height: 60px;
+  padding: 10px 30px;
+}
+
+.navUl {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 5px;
+}
+
+.naveLi {
+  border: 2px solid #fff;
+  padding: 5px;
+}
+
+.naveLi:hover {
+  border: 2px solid rgb(83, 165, 171);
+  background-color: rgb(23, 123, 90);
+  padding: 5px;
+}
+
+.navUl a {
+  color: #fff;
 }
 
 .textAreaDiv {
@@ -13,7 +47,9 @@
 }
 
 .buttonDiv {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
 }
 
 input {
@@ -30,6 +66,12 @@ input {
   font-weight: 200;
 }
 
+.numbDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
 button {
   width: 60px;
   height: 60px;
@@ -44,11 +86,93 @@ button:hover {
 }
 
 .largeBtn {
+  grid-column: span 2;
   width: 120px;
 }
 
 .signDiv {
   display: flex;
   flex-direction: column;
-  background-color: orange;
+  background-color: rgb(131, 241, 204);
+  border-radius: 8px;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mainDiv {
+  width: 253px;
+  background-color: #fff;
+  border: 5px solid rgb(74, 127, 207);
+  padding: 2px;
+  margin: 50px;
+  box-shadow: 10px 10px 90px rgba(9, 181, 41, 0.5);
+  border-radius: 15px;
+}
+
+.calcuDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.quotePageDiv {
+  display: flex;
+  background-color: rgba(9, 181, 41, 0.212);
+  height: 90vh;
+}
+
+.quoteDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 200px 200px;
+  padding: 20px;
+  background-color: rgba(9, 181, 41, 0.212);
+  box-shadow: 10px 10px 90px rgba(9, 181, 41, 0.5);
+  border-radius: 30px;
+  color: green;
+}
+
+.quoteH2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(9, 181, 41, 0.212);
+  box-shadow: 10px 10px 90px rgba(9, 181, 41, 0.5);
+  border-radius: 30px;
+  color: green;
+}
+
+.calcPageDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(9, 181, 41, 0.212);
+  height: 90vh;
+}
+
+.calcPageDiv h2 {
+  margin: 100px;
+}
+
+.homePageDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  background-color: rgba(9, 181, 41, 0.212);
+  height: 90vh;
+}
+
+.homePageDiv > p {
+  text-align: justify;
+  font-size: 20px;
 }

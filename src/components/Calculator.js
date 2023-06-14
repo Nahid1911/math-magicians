@@ -22,14 +22,19 @@ const Calculator = () => {
   };
 
   return (
-    <div className="mainDiv">
-      <TextArea
-        value={calculatorData.next || calculatorData.total || '0'}
-        handleChange={handleTextChange}
-      />
-      <div className="buttonDiv">
-        <Numpad handleButtonClick={handleButtonClick} />
-        <Signs handleButtonClick={handleButtonClick} />
+    <div className="calcPageDiv">
+      <div className="quoteH2">
+        <h2>Let&#39;s do some math!</h2>
+      </div>
+      <div className="mainDiv">
+        <TextArea
+          value={calculatorData.next || calculatorData.total || '0'}
+          handleChange={handleTextChange}
+        />
+        <div className="buttonDiv">
+          <Numpad handleButtonClick={handleButtonClick} />
+          <Signs handleButtonClick={handleButtonClick} />
+        </div>
       </div>
     </div>
   );

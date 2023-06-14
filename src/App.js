@@ -1,5 +1,5 @@
 import { Route, Routes, Link } from 'react-router-dom';
-import './App.css';
+// import './App.css';
 import Calculator from './components/Calculator';
 import FamousQuotes from './components/FamousQuotes';
 import Home from './components/Home';
@@ -8,32 +8,26 @@ import Home from './components/Home';
 function App() {
   return (
     <>
-      <nav>
-        <ul>
-          <li>
+      <nav className="navBar">
+        <h1>Math Magicians</h1>
+        <ul className="navUl">
+          <li className="naveLi">
             <Link to="/">Home</Link>
           </li>
-          <li>
+          <li className="naveLi">
             <Link to="/calculator">Calculator</Link>
           </li>
-          <li>
-            <Link to="/FamousQuotes">FamousQuotes</Link>
+          <li className="naveLi">
+            <Link to="/FamousQuotes">Quotes</Link>
           </li>
         </ul>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/FamousQuotes" element={<FamousQuotes />} />
-
         <Route path="/Calculator" element={<Calculator />} />
+        <Route path="/FamousQuotes" element={<FamousQuotes />} />
       </Routes>
     </>
-    // <div className="App">
-    //   <div className="quoteDiv">
-    //   </div>
-    //   <div className="calcuDiv">
-    //   </div>
-    // </div>
   );
 }
 
