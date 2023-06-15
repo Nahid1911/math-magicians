@@ -36,13 +36,13 @@ export default function calculate(obj, buttonName) {
     // If there is no operation, update next and clear the value
     if (obj.next && obj.next !== '0') {
       return {
+        ...obj,
         next: obj.next + buttonName,
-        total: null,
       };
     }
     return {
+      ...obj,
       next: buttonName,
-      total: null,
     };
   }
 
