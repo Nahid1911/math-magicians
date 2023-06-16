@@ -10,6 +10,7 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Run tests](#run-tests)
+  - [🚀 Live Demo](#live-demo)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -98,6 +99,12 @@ Example command:
 npx hint .
 npx eslint .
 ```
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+To see the live demo of the page please click <a href="https://nrsmathsandquotes.onrender.com">here</a>:
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Deployment
 
